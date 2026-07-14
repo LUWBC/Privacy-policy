@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — Instagram Focus</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --base: #0D0E10;
+      --surface: #1C1E22;
+      --ink: #EDECE7;
+      --amber: #F5A21E;
+      --amber-dim: #D9880F;
+      --amber-glow: rgba(245, 162, 30, 0.10);
+      --muted: #8B8E95;
+      --body: #C8C6BE;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--base);
+      color: var(--body);
+      font-family: 'Hanken Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
+      font-size: 15px;
+      line-height: 1.65;
+      min-height: 100vh;
+    }
+
+    /* ── Header ── */
+    header {
+      border-bottom: 1px solid rgba(245, 162, 30, 0.15);
+      padding: 32px 24px 28px;
+      max-width: 720px;
+      margin: 0 auto;
+    }
+
+    .wordmark {
+      display: flex;
+      align-items: baseline;
+      gap: 4px;
+      margin-bottom: 22px;
+      font-size: 20px;
+      font-weight: 800;
+      letter-spacing: -0.01em;
+    }
+    .wordmark .caret { color: var(--amber); font-weight: 800; }
+    .wordmark .luke { color: var(--ink); }
+    .wordmark .something { color: var(--muted); font-weight: 700; }
+
+    .app-tag {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 10px;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.18em;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: clamp(28px, 5vw, 38px);
+      color: var(--ink);
+      font-weight: 800;
+      line-height: 1.15;
+      letter-spacing: -0.02em;
+      margin-bottom: 10px;
+    }
+
+    .meta {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      color: var(--muted);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    /* ── Main content ── */
+    main {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 40px 24px 80px;
+    }
+
+    .intro {
+      background: var(--amber-glow);
+      border: 1px solid rgba(245, 162, 30, 0.2);
+      border-radius: 12px;
+      padding: 18px 20px;
+      margin-bottom: 40px;
+      font-size: 14px;
+      color: var(--ink);
+      line-height: 1.6;
+    }
+    .intro strong { color: var(--amber); }
+
+    section {
+      margin-bottom: 36px;
+      padding-bottom: 36px;
+      border-bottom: 1px solid rgba(245, 162, 30, 0.08);
+    }
+    section:last-of-type { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+
+    h2 {
+      font-size: 18px;
+      color: var(--amber);
+      font-weight: 700;
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    h2::before {
+      content: '';
+      display: block;
+      width: 3px;
+      height: 18px;
+      background: var(--amber);
+      border-radius: 2px;
+      flex-shrink: 0;
+    }
+
+    p { margin-bottom: 12px; color: var(--body); }
+    p:last-child { margin-bottom: 0; }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 10px 0 12px;
+      display: flex;
+      flex-direction: column;
+      gap: 7px;
+    }
+    ul li {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      font-size: 14px;
+      color: var(--body);
+    }
+    ul li::before {
+      content: '';
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      background: var(--amber-dim);
+      flex-shrink: 0;
+      margin-top: 8px;
+    }
+
+    code {
+      background: rgba(245,162,30,0.1);
+      color: var(--amber);
+      padding: 1px 6px;
+      border-radius: 4px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 13px;
+    }
+
+    a { color: var(--amber); text-decoration: none; border-bottom: 1px solid rgba(245,162,30,0.3); transition: border-color 0.2s; }
+    a:hover { border-color: var(--amber); }
+
+    /* ── Footer ── */
+    footer {
+      border-top: 1px solid rgba(245, 162, 30, 0.12);
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 24px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      color: var(--muted);
+      letter-spacing: 0.04em;
+    }
+    footer .caret { color: var(--amber); }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="wordmark">
+      <span class="caret">&rsaquo;</span><span class="luke">luke</span><span class="something">something</span>
+    </div>
+    <div class="app-tag">Instagram Focus · Chrome extension</div>
+    <h1>Privacy policy</h1>
+    <p class="meta">Last updated: 14 July 2026</p>
+  </header>
+
+  <main>
+
+    <div class="intro">
+      <strong>The short version:</strong> Instagram Focus does not collect, store, or transmit any personal data. Everything the extension does happens on your device. There are no servers, no accounts, and no analytics.
+    </div>
+
+    <section>
+      <h2>What Instagram Focus does</h2>
+      <p>Instagram Focus is a Chrome extension that hides the parts of Instagram built to keep you scrolling — the home feed, stories, reels and explore — while leaving messages, your profile and posting fully working. When you open the home feed it sends you to your direct message inbox instead.</p>
+      <p>Focus mode can be switched on or off at any time from the toolbar.</p>
+    </section>
+
+    <section>
+      <h2>Data collection</h2>
+      <p>Instagram Focus collects no personal data whatsoever. Specifically:</p>
+      <ul>
+        <li>It does not collect your name, email address, or any identifying information</li>
+        <li>It does not read your messages or posts</li>
+        <li>It does not track who you follow or what you view</li>
+        <li>It does not monitor your browsing history</li>
+        <li>It does not use analytics or crash reporting</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Local storage</h2>
+      <p>Instagram Focus saves a single preference — whether Focus mode is on — using <code>chrome.storage.local</code>. That setting is stored only on your device and is never synced to any server or transmitted anywhere.</p>
+      <p>This data consists only of:</p>
+      <ul>
+        <li>Whether Focus mode is currently enabled (true/false)</li>
+      </ul>
+      <p>You can clear it at any time by removing the extension from Chrome.</p>
+    </section>
+
+    <section>
+      <h2>Permissions</h2>
+      <p>Instagram Focus requests the following Chrome permissions:</p>
+      <ul>
+        <li><strong style="color:var(--ink);">storage</strong> — to remember whether Focus mode is on or off, locally on your device</li>
+        <li><strong style="color:var(--ink);">Host access to instagram.com</strong> — to inject the CSS and JavaScript that hide the feed, stories, reels and explore, and to redirect the home feed to your message inbox</li>
+      </ul>
+      <p>No other permissions are requested or used. The extension runs only on instagram.com and touches no other website.</p>
+    </section>
+
+    <section>
+      <h2>Third-party sharing</h2>
+      <p>Instagram Focus shares no data with anyone. There are no third-party SDKs, advertising networks, or data brokers involved in this extension.</p>
+    </section>
+
+    <section>
+      <h2>Children's privacy</h2>
+      <p>Instagram Focus collects no data from anyone, including children. It is a simple productivity tool with no accounts, registration, or data processing of any kind.</p>
+    </section>
+
+    <section>
+      <h2>Changes to this policy</h2>
+      <p>If this privacy policy changes, the updated version will be published at this URL and reflected in the extension's Chrome Web Store listing. The "last updated" date above will be revised accordingly.</p>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>Questions about this policy or about Instagram Focus can be directed through the Chrome Web Store listing, the GitHub repository, or <a href="https://lukesomething.com">lukesomething.com</a>.</p>
+    </section>
+
+  </main>
+
+  <footer>
+    Developed by <span class="caret">&rsaquo;</span>lukesomething.com · © 2026
+  </footer>
+
+</body>
+</html>
